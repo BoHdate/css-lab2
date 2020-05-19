@@ -1,0 +1,85 @@
+body{
+    background-image: url(img/back.png);
+}
+
+header{
+    background-color: black;
+}
+
+.title{
+    font-family: monospace;
+    text-align: center;
+    color: white;
+}
+
+.mininame{
+ 
+    font-family: monospace;
+    text-align: center;
+    color: tomato;
+    font-size: 400%;
+}
+
+.block{
+    align-items: center;
+    text-align: center;
+    align: justify
+}
+
+.img-center{
+    border: 3px solid black;
+ 
+}
+
+.text{
+    background-color: black;
+    display: flex;
+    text-align: left;
+    margin-left: unset;
+    color: white;
+    font-size: 250%;
+    font-family: monospace;
+    align: justify
+}
+
+*{
+    box-sizing: content-box;
+}
+/*...............................................
+                phone
+................................................*/
+@media (max-width: 1160px){
+    
+    .title {
+        width: 100%
+    }
+    
+    .site{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .text{
+        background-color: black;
+        display: flex;
+        color: white;
+        font-size: 100%;
+        font-family: monospace;
+        align: justify
+        padding-right: 15px;
+    }
+
+    .img-center{
+        display: block;
+        margin: auto;
+        align-items: center;
+        width: 940px;
+        height: 500px; 
+
+   
+}
+
